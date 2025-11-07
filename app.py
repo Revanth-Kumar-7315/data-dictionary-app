@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import google.generativeai as genai
+import google.genai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import json
 

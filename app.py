@@ -55,7 +55,7 @@ if uploaded_file is not None:
                         
                         # Set up the model with the JSON response type
                         model = genai.GenerativeModel(
-                            model_name='gemini-1.5-flash',
+                            model_name='gemini-pro',
                             generation_config={"response_mime_type": "application/json"},
                         )
 
